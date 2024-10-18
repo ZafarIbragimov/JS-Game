@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.afisha.uz/uploads/media/2024/05/8338dca31a08b4aca5bde615fe47a715_xlf.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+      margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;  
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;  
+}
+
+h1 {
+    color: #343a40;  
+    margin-bottom: 20px;  
+}
+
+form label {
+    margin: 10px;  
+    font-size: 18px;  
+    cursor: pointer;  
+}
+
+input[type="radio"] {
+    margin-right: 8px;  
+}
+
+button {
+    margin-top: 20px;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    background-color: #007bff; 
+    color: #fff;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}
+
+button:hover {
+    background-color: #0056b3;  
+}
+
+#result {
+    margin-top: 20px;  
+    font-size: 18px;  
+    font-weight: bold;  
+    color: #495057;  
+}
